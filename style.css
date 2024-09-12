@@ -1,0 +1,72 @@
+/* Body styling */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #fffaf0; /* Soft, warm background color */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Main container for the letter */
+.container {
+    width: 70%;
+    margin: 60px auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border: 2px solid #f4c2c2; /* Light pink border for a romantic touch */
+}
+
+/* Header of the letter */
+h1 {
+    text-align: center;
+    color: #d2691e; /* Warm brownish color for the title */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #4f4f4f; /* Softer text color for a calm reading experience */
+    text-align: justify;
+    margin: 10px 0;
+}
+
+/* Styling for the opening line */
+.container p:first-of-type {
+    font-style: italic;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+/* Highlight important or romantic words */
+.romantic {
+    color: #c71585; /* Deep pink/maroon color */
+    font-weight: bold;
+}
+
+/* Signature styling */
+.signature {
+    text-align: right;
+    margin-top: 40px;
+    font-size: 1.3em;
+    font-style: italic;
+    color: #d2691e;
+}
+
+/* Adding a subtle background image for a more romantic feel */
+body:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://www.example.com/path-to-romantic-background.jpg');
+    background-size: cover;
+    opacity: 0.1; /* Light background image for a subtle effect */
+    z-index: -1;
+}
